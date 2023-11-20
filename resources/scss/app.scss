@@ -1,1 +1,18 @@
 @import '~bootstrap/scss/bootstrap';
+
+.card{
+    border:none;
+    &:hover{
+        scale: 1.1;
+    }
+    &:hover .card-body{
+        box-shadow: 5px 5px 5px 5px rgb(153, 153, 153);
+    }
+    img{
+        height: 450px;
+        object-fit: cover;
+    }
+    .card-body{
+        box-shadow: 5px 5px 5px 5px rgb(225, 224, 224);
+    }
+}
